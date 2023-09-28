@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.214" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.214" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.214" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.214" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication3/app/src/main/res/drawable/image_shap.xml" value="0.214" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_main2.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_main3.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_main_single_select.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/fragment_blank.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/listchild_item.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/listmere_item.xml" value="0.48758465011286684" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/recyclegrid.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/recyclegrid_layout.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/recyvle_layout2.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
