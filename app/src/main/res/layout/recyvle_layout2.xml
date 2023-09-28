@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="7dp"
+    android:layout_marginRight="7dp"
+    app:layoutDescription="@xml/recyvle_layout2_scene">
+
+    <ImageView
+        android:id="@+id/Imag"
+        android:layout_width="100dp"
+        android:visibility="invisible"
+        android:layout_height="100dp"
+        android:src="@drawable/pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/txtQte"
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/Violet"
+        android:gravity="center"
+        android:text="Qte"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/Imag"
+        app:layout_constraintEnd_toStartOf="@+id/Imag"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toEndOf="@+id/Imag"
+        app:layout_constraintTop_toBottomOf="@+id/Imag"
+        app:layout_constraintVertical_bias="0.23">
+
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/cardView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:backgroundTint="@color/Violet"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/Imag"
+        app:layout_constraintEnd_toStartOf="@+id/Imag"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toEndOf="@+id/Imag"
+        app:layout_constraintTop_toTopOf="@+id/Imag"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/ImgAdd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_add_24">
+
+        </ImageView>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/cardView2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/image_shap"
+        android:backgroundTint="@color/Violet"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/Imag"
+        app:layout_constraintEnd_toEndOf="@+id/Imag"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Imag"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/ImgDelete"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_remove_24">
+
+        </ImageView>
+
+    </androidx.cardview.widget.CardView>
+
+    <!--  <TextView
+        android:layout_width="55dp"
+        android:layout_height="37dp"
+        app:layout_constraintBottom_toTopOf="@+id/Imag"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/Imag"
+        app:layout_constraintVertical_bias="0.213"
+        android:gravity="center"
+        android:text="Number"
+        android:textStyle="bold">
+          </TextView>-->
+
+
+    <TextView
+        android:id="@+id/textV"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="name of categorie"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Imag"
+        app:layout_constraintVertical_bias="0.02"></TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
